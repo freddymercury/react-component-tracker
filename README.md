@@ -31,6 +31,7 @@
 
 ## Sample Output
 
+```
 > react-component-tracker@1.0.0 start
 > ts-node index.ts ../eliza/client **/node_modules/**, **/jest*, *test*, **/dist/**
 
@@ -63,3 +64,4 @@ Scanned Files: [
   '../eliza/client/src/App.tsx',
   '../eliza/client/src/components/app-sidebar.tsx',
   '../eliza/client/src/components/array-input.tsx',
+```
