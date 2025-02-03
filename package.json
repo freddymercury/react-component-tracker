@@ -1,0 +1,38 @@
+{
+    "name": "react-component-tracker",
+    "version": "1.0.0",
+    "description": "A tool for scanning JSX, TSX, JS, and TS files to extract React component instances along with their line numbers.",
+    "main": "index.ts",
+    "scripts": {
+      "start": "ts-node index.ts",
+      "test": "ts-node index.ts --test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/freddymercury/react-component-tracker.git"
+    },
+    "keywords": [
+      "react",
+      "component",
+      "tracker",
+      "jsx",
+      "tsx",
+      "typescript",
+      "scanner"
+    ],
+    "author": "freddymercury",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/freddymercury/react-component-tracker/issues"
+    },
+    "homepage": "https://github.com/freddymercury/react-component-tracker#readme",
+    "engines": {
+      "node": ">=14.0.0"
+    },
+    "devDependencies": {
+      "@types/node": "^18.19.74",
+      "ts-node": "^10.9.2",
+      "typescript": "^4.9.5"
+    }
+  }
+  
